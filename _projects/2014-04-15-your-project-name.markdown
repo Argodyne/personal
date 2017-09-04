@@ -2,7 +2,7 @@
 layout: project
 title:  "TEST PROJECT :D"
 date:   2017-09-04 18:00:00
-author: Marcel Newman
+author: Yours truly
 categories:
 - project
 img: portfolio_10.jpg
@@ -13,7 +13,7 @@ carousel:
 tagged: Flat, UI, Development
 ytbvideo: dQw4w9WgXcQ
 client: Wonder Corp.
-website: http://blacktie.co
+website: http://www.google.es
 ---
 ####YOUR PROJECT NAME
 Prueba de video embed en pagina de porfolio
