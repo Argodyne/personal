@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  "YOUR PROJECT NAME"
-date:   2014-04-25 16:54:46
+title:  "TEST PROJECT :D"
+date:   2017-09-04 18:00:00
 author: Marcel Newman
 categories:
 - project
@@ -10,7 +10,6 @@ thumb: thumb02.jpg
 carousel:
 - single01.jpg
 - single02.jpg
-- single03.jpg
 tagged: Flat, UI, Development
 ytbvideo: dQw4w9WgXcQ
 client: Wonder Corp.
