@@ -14,9 +14,11 @@ layout: default
 
             {{ content }}
 
+            {% if page.ytbvideo %}
             <div class="youtube">
                 <iframe width="500" height="281" src="https://www.youtube.com/embed/{{page.ytbvideo}}"></iframe>
             </div>
+            {% endif %}
         </div>
         <div class="col-lg-4 col-lg-offset-1">
             <div class="spacing"></div>
