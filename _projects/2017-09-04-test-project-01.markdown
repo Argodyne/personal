@@ -1,22 +1,28 @@
 ---
 layout: project
-title:  "TEST PROJECT :D"
-date:   2017-09-04 18:00:00
+title:  "Fallen Tear"
+date:   2017-09-04 20:25:00
 author: Yours truly
 categories:
 - project
-img: portfolio_10.jpg
+img: fallentear_01.jpg
 thumb: thumb02.jpg
 carousel:
-- single01.jpg
-- single02.jpg
-tagged: Flat, UI, Development
-ytbvideo: Mfmtt1Q4iDA
-client: Wonder Corp.
+- fallentear01.jpg
+- fallentear02.jpg
+- fallentear03.jpg
+- fallentear04.jpg
+- fallentear05.jpg
+- fallentear06.jpg
+- fallentear07.jpg
+tagged: FinalProject, UnrealEngine4, Development, FullProject
+ytbvideo: 4U6HZR2-2WA
+client: Bleeding Polygons
 website: http://www.google.es
 ---
-####YOUR PROJECT NAME
-Prueba de video embed en pagina de porfolio. El video parece funcionar bien, pero todos los enlaces cargan lo mismo...
+####FALLEN TEAR
+Prueba de pagina de proyecto con enlace a video de youtube...
 
 ####Our Proposal
+Lore Lore Maku Maku.
 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
