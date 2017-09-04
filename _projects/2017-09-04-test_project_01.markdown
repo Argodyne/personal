@@ -16,7 +16,7 @@ client: Wonder Corp.
 website: http://www.google.es
 ---
 ####YOUR PROJECT NAME
-Prueba de video embed en pagina de porfolio
+Prueba de video embed en pagina de porfolio. El video parece funcionar bien, pero todos los enlaces cargan lo mismo...
 
 ####Our Proposal
 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
