@@ -2,7 +2,7 @@
 
 # Site settings
 title: eTrilles_
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Personal webpage and portfolio for Enrique Trilles Andreo."
 analytics: #UA-50546869-2
 baseurl: "/personal" #important: start with /
 url: "https://argodyne.github.io"
@@ -71,4 +71,4 @@ members:
 
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "About text found at _config yml file!"
+about: "Personal webpage and portfolio for Enrique Trilles Andreo."
