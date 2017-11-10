@@ -1,0 +1,27 @@
+---
+layout: project
+title:  "Augmented Reality remote visor"
+date:   2014-09-30 10:30:00
+author: Enrique Trilles
+categories:
+- project
+img: ar_thesis_front_01.png
+thumb: thumb02.jpg
+carousel:
+- ar_thesis_01.jpg
+- ar_thesis_02.png
+- ar_thesis_03.png
+- ar_thesis_04.png
+- ar_thesis_05.png
+- ar_thesis_06.png
+tagged: FinalProject, Unity3D, Vuforia, Augmented Reality, Client-Server connection
+repo: -Not available-
+download: https://drive.google.com/file/d/1XKRWQStYJnDvW8yylQmE5I_Vl0hgsTot/view?usp=sharing
+
+
+---
+
+Videogame project made by Bleeding Polygons, an eight people team. The team was composed by four programmers and four graphic dessigners, all of them students at ESAT university in Valencia, Spain.
+
+This project was made as our final career project. The primary objective was to made a fully operational demo of a professional videogame, starting from scratch. All the project was built on Unreal Engine 4 and fmod. Perforce was used as source control and synchronization tool.
+
