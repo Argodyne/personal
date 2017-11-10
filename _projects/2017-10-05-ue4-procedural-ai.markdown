@@ -10,9 +10,8 @@ thumb: thumb02.jpg
 tagged: C++, UnrealEngine4, Artificial Inteligence, Behavior Tree, Procedural Generation
 ytbvideo: -294BvClDTE
 repo: -work in progress-
-extended: The procedural generation algorithm will build from scratch and at runtime a new maze everytime the level is loaded, making a completely different labirynth every time the game is launched.
-Bots have sensors for sight and hearing, and will chase the player or move to the location of the hearing sound.
-Although it can't be appreciated in the video, the game has music and sound effects for almost all the actions of the player. Everything music and sound related is handled with FMOD and its corresponding plugin for Unreal.
+download: -work in progress-
+extended: The procedural generation algorithm will build from scratch and at runtime a new maze everytime the level is loaded, making a completely different labirynth every time the game is launched. Bots have sensors for sight and hearing, and will chase the player or move to the location of the hearing sound. Although it can't be appreciated in the video, the game has music and sound effects for almost all the actions of the player. Everything music and sound related is handled with FMOD and its corresponding plugin for Unreal.
 
 ---
 

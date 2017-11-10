@@ -1,0 +1,30 @@
+---
+layout: project
+title:  "Augmented Reality remote visor"
+date:   2014-09-30 10:30:00
+author: Enrique Trilles
+categories:
+- project
+img: ar_thesis_front_01.png
+thumb: thumb02.jpg
+carousel:
+- ar_thesis_01.jpg
+- ar_thesis_02.png
+- ar_thesis_03.png
+- ar_thesis_04.png
+- ar_thesis_05.png
+tagged: FinalProject, Unity3D, Vuforia, Augmented Reality, Client-Server connection
+repo: -Not available-
+download: https://drive.google.com/file/d/1XKRWQStYJnDvW8yylQmE5I_Vl0hgsTot/view?usp=sharing
+
+---
+
+This project was created for the thesis of my master's degree at the Universitat Politecnica de Valencia. The full project was composed of two parts: A client app created with Unity for Android devices and a server app created with C# for computers.
+The server application was a basic app that keeped track of the .obj files we desired to see on an Augmented Reality environment on the Android device. The app checks and validates those files, and prepares them for sending when the clien app asks for them.
+
+The client application was the complex one. The app was created using Unity and Vuforia. The main objective was to use a safe connection with the server computer, ask for the available models/files to view, download them, and then show them on the AR marker detected by the camera.
+
+For this to work, I had to learn and build and algorithm for processing the .obj format, and created the needed meshes and models for Unity to work with. And all of this had to be done at runtime, due to the fact that there was no way for us to know which files (and when) the client wanted to see.
+On the other hand, I also had to learn and prepare the connection between the computer and the android device with the use of sockets. The handling and processing of data packages was no trivial matter.
+
+In the end, this was a really fun and challenging project to work with. Although the time restrictions I had, I was quite happy with the final results.
