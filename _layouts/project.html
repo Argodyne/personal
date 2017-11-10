@@ -11,7 +11,7 @@ layout: default
 
         <div class="col-lg-5 col-lg-offset-1">
             <div class="spacing"></div>
-
+            <h4>{{ page.title }}</h4>
             {{ content }}
 
             {% if page.ytbvideo %}
@@ -19,6 +19,7 @@ layout: default
                 <iframe width="500" height="281" src="https://www.youtube.com/embed/{{page.ytbvideo}}" frameborder="0" allowfullscreen></iframe>
             </div>
             {% endif %}
+            
         </div>
         <div class="col-lg-4 col-lg-offset-1">
             <div class="spacing"></div>
@@ -28,10 +29,24 @@ layout: default
             <p><b>Author:</b> {{ page.author }}</p>
             <p><b>Categories:</b> {{ page.categories }}</p>
             <p><b>Tagged:</b> {{ page.tagged }}</p>
-            <p><b>Client:</b> {{ page.client }}</p>
-            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+            <p><b>Repository:</b> {{ page.repo }}</p>
+            {% if page.demo %}
+            <p><b>Demo download:</b> <a href="{{ page.demo }}">{{ page.demo }}</a></p>
+            {% endig %}
         </div>
+        <!-- segundo bloque de texto aqui?? -->
     </div><! --/row -->
+
+
 </div><! --/container -->
+
+{% if page.extended %}
+<div class="container mt">
+    <div class="col-lg-12">
+        <h4>Project Explanation</h4>
+        {{page.extended}}
+    </div>
+</div>
+{% endif %}
 	 
 {% include portfolio.html title="Related Works." limit=5 %}
