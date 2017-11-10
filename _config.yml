@@ -61,7 +61,7 @@ email: TrillesAndreo@gmail.com
 members:
   - name: Enrique Trilles Andreo
     # position: CEO
-    text: Mi descripcion, en config_.yml
+    text: Computer engineer and videogames lover.
     img: team01.jpg # TODO: foto personal aqui!
     social:
       - title: envelope #use for email address
