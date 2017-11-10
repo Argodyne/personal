@@ -11,14 +11,12 @@ layout: default
 
         <div class="col-lg-5 col-lg-offset-1">
             <div class="spacing"></div>
-
+            <h4>{{ page.title }}</h4>
             {{ content }}
 
-            {% if page.ytbvideo %}
-            <div class="youtube">
-                <iframe width="500" height="281" src="https://www.youtube.com/embed/{{page.ytbvideo}}" frameborder="0" allowfullscreen></iframe>
-            </div>
-            {% endif %}
+
+
+            
         </div>
         <div class="col-lg-4 col-lg-offset-1">
             <div class="spacing"></div>
@@ -34,7 +32,16 @@ layout: default
         <!-- segundo bloque de texto aqui?? -->
     </div><! --/row -->
 </div><! --/container -->
+
+{% if page.ytbvideo %}
+<div class="youtube">
+    <iframe width="500" height="281" src="https://www.youtube.com/embed/{{page.ytbvideo}}" frameborder="0" allowfullscreen></iframe>
+</div>
+{% endif %}
+
 {% if page.extended %}
+<div class="spacing"></div>
+<h4>Project Explanation</h4>
 <div class="col">{{page.extended}}</div>
 {% endif %}
 	 
