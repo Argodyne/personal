@@ -29,3 +29,5 @@ This project was made as our final career project. The primary objective was to 
 As part of the team, my work consisted in building all enemies artificial inteligence and specific behavior patterns for each one of them. Everything, from the AI controller to the perception components of the npc's was coded on C++ rather than builded on UE4 blueprints. This way we can ensure the AI responsiveness will be faster and more precise.
 The AI also uses BehaviorTrees and the experimental Environment Query Systems offered by Unreal. This way, the bots movement is less predictable and has more realistic movement patterns.
 Working on a project of this size was very challenging and interesting. In the end, I learned a lot from my companions and from the overall experience, and I hope to work on a similar project in the future.
+
+DISCLAIMER: The demo is a .rar file and occupies around 3gb of data. Be careful when, and from where, are you going to download it, in case you do so!
