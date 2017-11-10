@@ -34,17 +34,18 @@ layout: default
         </div>
         <!-- segundo bloque de texto aqui?? -->
     </div><! --/row -->
+
+
 </div><! --/container -->
 
-
-
 {% if page.extended %}
-<div class="spacing"></div>
-<div class="col-lg-5 col-lg-offset-1">
-    <h4>Project Explanation</h4>
-    {{page.extended}}
+<div class="container mt">
+    <div class="spacing"></div>
+    <div class="col-lg-5 col-lg-offset-1">
+        <h4>Project Explanation</h4>
+        {{page.extended}}
+    </div>
 </div>
-<br>
 {% endif %}
 	 
 {% include portfolio.html title="Related Works." limit=5 %}
