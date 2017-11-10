@@ -29,8 +29,10 @@ layout: default
             <p><b>Author:</b> {{ page.author }}</p>
             <p><b>Categories:</b> {{ page.categories }}</p>
             <p><b>Tagged:</b> {{ page.tagged }}</p>
-            <p><b>Client:</b> {{ page.client }}</p>
-            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+            <p><b>Repository:</b> {{ page.repo }}</p>
+            {% if page.demo %}
+            <p><b>Demo download:</b> <a href="{{ page.demo }}">{{ page.demo }}</a></p>
+            {% endig %}
         </div>
         <!-- segundo bloque de texto aqui?? -->
     </div><! --/row -->
@@ -40,8 +42,7 @@ layout: default
 
 {% if page.extended %}
 <div class="container mt">
-    <div class="spacing"></div>
-    <div class="col-lg-5 col-lg-offset-1">
+    <div class="col-lg-12">
         <h4>Project Explanation</h4>
         {{page.extended}}
     </div>
