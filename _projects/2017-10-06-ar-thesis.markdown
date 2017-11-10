@@ -20,7 +20,10 @@ download: https://drive.google.com/file/d/1XKRWQStYJnDvW8yylQmE5I_Vl0hgsTot/view
 
 ---
 
-Videogame project made by Bleeding Polygons, an eight people team. The team was composed by four programmers and four graphic dessigners, all of them students at ESAT university in Valencia, Spain.
+This project was created for the thesis of my master's degree at the Universitat Politecnica de Valencia. The full project was composed of two parts: A client app created with Unity for Android devices and a server app created with C# for computers.
+The server application was a basic app that keeped track of the .obj files we desired to see on an Augmented Reality environment on the Android device. The app checks and validates those files, and prepares them for sending when the clien app asks for them.
 
-This project was made as our final career project. The primary objective was to made a fully operational demo of a professional videogame, starting from scratch. All the project was built on Unreal Engine 4 and fmod. Perforce was used as source control and synchronization tool.
+The client application was the complex one. The app was created using Unity and Vuforia. The main objective was to use a safe connection with the server computer, ask for the available models/files to view, download them, and then show them on the AR marker detected by the camera.
 
+For this to work, I had to learn and build and algorithm for processing the .obj format, and created the needed meshes and models for Unity to work with. And all of this had to be done at runtime, due to the fact that there was no way for us to know which files (and when) the client wanted to see.
+On the other hand, I also had to learn and prepare the connection between the computer and the android device with the use of sockets. The handling and processing of data packages was no trivial matter.
