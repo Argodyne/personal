@@ -25,6 +25,5 @@ extended: Lorem Ipsum is simply dummy text of the printing and typesetting indus
 
 Videogame project made by Bleeding Polygons, an eight people team. The team was composed by four programmers and four graphic dessigners, all of them students at ESAT university in Valencia, Spain.
 
-This project was made as our final career project. The primary objective was to made a fully operational demo of a professional videogame, starting from scratch. All the
-project was built on Unreal Engine 4 and fmod. Perforce was used as source control and synchronization tool.
+This project was made as our final career project. The primary objective was to made a fully operational demo of a professional videogame, starting from scratch. All the project was built on Unreal Engine 4 and fmod. Perforce was used as source control and synchronization tool.
 
