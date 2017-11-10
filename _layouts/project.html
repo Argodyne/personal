@@ -33,9 +33,9 @@ layout: default
         </div>
         <!-- segundo bloque de texto aqui?? -->
     </div><! --/row -->
-    {% if page.extended %}
-    <div class="col">{{page.extended}}</div>
-    {% endif %}
 </div><! --/container -->
+{% if page.extended %}
+<div class="col">{{page.extended}}</div>
+{% endif %}
 	 
 {% include portfolio.html title="Related Works." limit=5 %}
