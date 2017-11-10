@@ -31,6 +31,10 @@ layout: default
             <p><b>Client:</b> {{ page.client }}</p>
             <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
         </div>
+        <!-- segundo bloque de texto aqui?? -->
+        {% if page.extended %}
+        <div>{{page.extended}}</div>
+        {% endif %}
     </div><! --/row -->
 </div><! --/container -->
 	 
