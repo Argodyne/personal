@@ -30,7 +30,7 @@ layout: default
             <p><b>Categories:</b> {{ page.categories }}</p>
             <p><b>Tagged:</b> {{ page.tagged }}</p>
             {% if page.repo %}
-            <p><b>Project:</b> {{ page.repo }}</p>
+            <p><b>Project:</b> <a href="{{ page.repo }}">Link</a></p>
             {% endif %}
             {% if page.download %}
             <p><b>Download:</b> <a href="{{ page.download }}">Link</a></p>
