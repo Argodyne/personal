@@ -9,7 +9,7 @@ img: engine3d_opengl.png
 thumb: thumb02.jpg
 tagged: C++, OpenGL, Lua, ImGUI, GLSL, Multithread
 ytbvideo: warPDs94UhE
-repo: -work in progress-
+repo: https://drive.google.com/open?id=1qZKAjOBabDGUBdJOxORX7hFSUWnGX4CD
 
 ---
 
