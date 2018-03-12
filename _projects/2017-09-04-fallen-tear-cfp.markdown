@@ -17,7 +17,6 @@ carousel:
 - fallentear07.jpg
 tagged: FinalProject, UnrealEngine4, Development, FullProject
 ytbvideo: 4U6HZR2-2WA
-repo: -Not available-
 download: https://drive.google.com/file/d/1j02qPj8TDgCz9mWSTqY-uwFzVHtftW9V/view?usp=sharing
 
 ---
